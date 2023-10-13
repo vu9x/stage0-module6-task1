@@ -22,7 +22,7 @@ public class Animal {
             paw = "paws";
         }
 
-        String result = String.format("This animal is mostly %s. It has %s paws and %s fur.", color, paw, fur);
+        String result = String.format("This animal is mostly %s. It has %d %s and %s fur.", color, numberOfPaws,paw, fur);
         return result;
     }
 
